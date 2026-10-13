@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "package_id": "gsr-4325.development-journal",
+  "version": "0.2.0",
+  "publisher": {
+    "id": "gsr-4325",
+    "name": "gsr-4325"
+  },
+  "host": {
+    "api": "^1.0",
+    "os": ["windows", "linux", "darwin"]
+  },
+  "requested_capabilities": [],
+  "components": [
+    {
+      "id": "third-party.development-journal",
+      "manifest": "components/third-party.development-journal/component.json",
+      "runtime": {
+        "kind": "python-process",
+        "entry": "components/third-party.development-journal/process.py",
+        "protocol": "cyclizer.plugin-process/v1"
+      }
+    }
+  ]
+}

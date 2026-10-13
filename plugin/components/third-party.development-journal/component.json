@@ -1,0 +1,33 @@
+{
+  "schema_version": 2,
+  "version": "0.2.0",
+  "id": "third-party.development-journal",
+  "presentation": {
+    "name": "Development Journal",
+    "description": "Browse the local Cyclizer repository's development plans directly inside Cyclizer, without network access.",
+    "icon": {
+      "kind": "asset",
+      "id": "book-open"
+    },
+    "category": "Developer Tools",
+    "publisher": "gsr-4325"
+  },
+  "classification": {
+    "layer": "product",
+    "activation": "optional",
+    "origin": "third-party",
+    "kind": "feature",
+    "manageability": "user-manageable"
+  },
+  "contracts": {
+    "provides": [],
+    "requires": [],
+    "optional": []
+  },
+  "component_dependencies": [],
+  "runtime": {
+    "live_change_supported": true,
+    "diagnostic": false,
+    "default_enabled": true
+  }
+}
